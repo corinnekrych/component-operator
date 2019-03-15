@@ -16,7 +16,7 @@ spec:
       containers:
         - name: component-operator
           # Replace this with the built image name
-          image: REPLACE_IMAGE
+          image: quay.io/corinnekrych/component-operator:v0.0.1
           command:
           - component-operator
           imagePullPolicy: Always
